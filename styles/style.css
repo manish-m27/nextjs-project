@@ -1,0 +1,6 @@
+body {
+	@apply font-opensans text-[#111];
+}
+.mob_nav.open  {
+	@apply left-0;
+}
