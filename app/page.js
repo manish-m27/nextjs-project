@@ -8,7 +8,7 @@ export default function Home() {
     <>
 			{/* <h1 className={`${styles.test} pb-20`}>text</h1> */}
 			<section className='pb-20'>
-				<Image className='!h-[437px] object-cover object-position-50-20 !static' src='/home-ban-img.jpg' width={1920} height={1320}/>
+				<Image className='w-full !h-[437px] object-cover object-position-50-20 !static' src='/home-ban-img.jpg' width={1920} height={1320} alt='Project'/>
 				<div className="max-w-[1140px] mx-auto">
 					<div className="flex max-w-[864px] mx-auto mt-[-276px]">
 						<div className="w-1/2 pr-[21px]">
@@ -34,14 +34,14 @@ export default function Home() {
 				<div className="max-w-[840px] mx-auto relative z-[2]">
 					<div className="flex flex-wrap items-end">
 						<div className="pr-5 w-[41%]">
-							<Image className='!static !h-[396px] object-cover border-[6px] border-solid border-white' src='/v.jpg' width={800} height={720} />
+							<Image className='!static !h-[396px] object-cover border-[6px] border-solid border-white' src='/v.jpg' width={800} height={720} alt='Project'/>
 							<div className="py-[30px]">
 								<h2 className='font-oswald text-[36px] leading-[1.1] text-[#2530c9] mb-5'>What We Offer:</h2>
 								<ul>
-									<li className='relative pl-[25px] text-[18px] leading-[2]'><Image className='absolute left-0 top-3' src='/tick.svg' width={15} height={15}/> Duis aute irure dolor in</li>
-									<li className='relative pl-[25px] text-[18px] leading-[2]'><Image className='absolute left-0 top-3' src='/tick.svg' width={15} height={15}/> Excepteur sint occaecat</li>
-									<li className='relative pl-[25px] text-[18px] leading-[2]'><Image className='absolute left-0 top-3' src='/tick.svg' width={15} height={15}/> Ut enim ad minim</li>
-									<li className='relative pl-[25px] text-[18px] leading-[2]'><Image className='absolute left-0 top-3' src='/tick.svg' width={15} height={15}/> Lorem ipsum dolor</li> 
+									<li className='relative pl-[25px] text-[18px] leading-[2]'><Image className='absolute left-0 top-3' src='/tick.svg' width={15} height={15} alt='Project'/> Duis aute irure dolor in</li>
+									<li className='relative pl-[25px] text-[18px] leading-[2]'><Image className='absolute left-0 top-3' src='/tick.svg' width={15} height={15} alt='Project'/> Excepteur sint occaecat</li>
+									<li className='relative pl-[25px] text-[18px] leading-[2]'><Image className='absolute left-0 top-3' src='/tick.svg' width={15} height={15} alt='Project'/> Ut enim ad minim</li>
+									<li className='relative pl-[25px] text-[18px] leading-[2]'><Image className='absolute left-0 top-3' src='/tick.svg' width={15} height={15} alt='Project'/> Lorem ipsum dolor</li> 
 								</ul>
 							</div>
 						</div>
@@ -80,9 +80,41 @@ export default function Home() {
 				</div>
 			</section>
 			
-			{/* <section className='py-20 bg-slate-600'>
-				<div className=""></div>
-			</section> */}
+			<section className='py-20'>
+				<div className='max-w-[1140px] mx-auto'>
+					<div className='flex flex-wrap -mx-3 -mb-6'>
+						<div className='w-1/3 px-3 mb-6'>
+							<Image className='w-full h-[338px] object-cover object-right-bottom' src="/port1.jpg" width={360} height={338} alt='Portfolio'/>
+						</div>
+						<div className='w-1/3 px-3 mb-6'>
+							<Image className='w-full h-[338px] object-cover object-center' src="/port2.jpeg" width={360} height={338} alt='Portfolio'/>
+						</div>
+						<div className='w-1/3 px-3 mb-6'>
+							<Image className='w-full h-[338px] object-cover object-center' src="/port3.jpeg" width={360} height={338} alt='Portfolio'/>
+						</div>
+						<div className='w-1/3 px-3 mb-6'>
+							<Image className='w-full h-[338px] object-cover object-center' src="/port4.jpg" width={360} height={338} alt='Portfolio'/>
+						</div>
+						<div className='w-1/3 px-3 mb-6'>
+							<div className='flex items-center justify-center h-full'>
+								<h2 className='font-oswald text-[48px] leading-[1.1] text-[#2530c9] mb-0'>Our Portfolio</h2>
+							</div>
+						</div>
+						<div className='w-1/3 px-3 mb-6'>
+							<Image className='w-full h-[338px] object-cover object-center' src="/port5.jpeg" width={360} height={338} alt='Portfolio'/>
+						</div>
+						<div className='w-1/3 px-3 mb-6'>
+							<Image className='w-full h-[338px] object-cover object-right-bottom' src="/port6.jpeg" width={360} height={338} alt='Portfolio'/>
+						</div>
+						<div className='w-1/3 px-3 mb-6'>
+							<Image className='w-full h-[338px] object-cover object-center' src="/port7.jpeg" width={360} height={338} alt='Portfolio'/>
+						</div>
+						<div className='w-1/3 px-3 mb-6'>
+							<Image className='w-full h-[338px] object-cover object-center' src="/port8.jpeg" width={360} height={338} alt='Portfolio'/>
+						</div>
+					</div>
+				</div>
+			</section>
 		</>
   )
 }

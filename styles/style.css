@@ -4,3 +4,6 @@ body {
 .mob_nav.open  {
 	@apply left-0;
 }
+.mob_nav.open + .nav_overlay {
+	@apply opacity-100 visible;
+}

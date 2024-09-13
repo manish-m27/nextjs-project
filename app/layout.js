@@ -3,10 +3,10 @@ import '../styles/style.css'
 import Header from '../components/layout/Header'
 import Footer from '../components/layout/Footer'
 
-export const metadata = {
-  title: 'Nextjs Project',
-  description: 'Test project',
-}
+// export const metadata = {
+//   title: 'Nextjs Project',
+//   description: 'Test project',
+// }
 
 export default function RootLayout({ children }) {
   return (
